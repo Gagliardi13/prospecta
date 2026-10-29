@@ -1,0 +1,74 @@
+# Segmentos prontos para usar na tela.
+# Para criar um novo, copie um bloco e ajuste:
+#   cnaes:       códigos CNAE de 7 dígitos (a tela também tem uma busca de CNAE)
+#   termos:      o que digitar no Google Maps para achar esse tipo de negócio
+#   tipo_google: (opcional) tipo do Google Places que ajuda a filtrar
+#                lista: https://developers.google.com/maps/documentation/places/web-service/place-types
+
+Advocacia:
+  cnaes: ["6911701"]
+  termos: ["escritório de advocacia", "advogado"]
+  tipo_google: lawyer
+
+Odontologia:
+  cnaes: ["8630504"]
+  termos: ["clínica odontológica", "dentista"]
+  tipo_google: dentist
+
+Contabilidade:
+  cnaes: ["6920601", "6920602"]
+  termos: ["escritório de contabilidade", "contador"]
+  tipo_google: accounting
+
+Clínicas médicas:
+  cnaes: ["8630501", "8630502", "8630503"]
+  termos: ["clínica médica", "consultório médico"]
+  tipo_google: doctor
+
+Psicologia:
+  cnaes: ["8650003"]
+  termos: ["psicólogo", "clínica de psicologia"]
+
+Fisioterapia:
+  cnaes: ["8650004"]
+  termos: ["fisioterapia", "clínica de fisioterapia"]
+  tipo_google: physiotherapist
+
+Nutrição:
+  cnaes: ["8650002"]
+  termos: ["nutricionista"]
+
+Veterinária:
+  cnaes: ["7500100"]
+  termos: ["clínica veterinária", "veterinário"]
+  tipo_google: veterinary_care
+
+Pet shop:
+  cnaes: ["4789004", "9609208"]
+  termos: ["pet shop", "banho e tosa"]
+  tipo_google: pet_store
+
+Imobiliárias:
+  cnaes: ["6821801", "6821802", "6822600"]
+  termos: ["imobiliária", "corretor de imóveis"]
+  tipo_google: real_estate_agency
+
+Academias:
+  cnaes: ["9313100"]
+  termos: ["academia", "studio de pilates"]
+  tipo_google: gym
+
+Salões de beleza e estética:
+  cnaes: ["9602501", "9602502"]
+  termos: ["salão de beleza", "clínica de estética"]
+  tipo_google: beauty_salon
+
+Restaurantes:
+  cnaes: ["5611201"]
+  termos: ["restaurante"]
+  tipo_google: restaurant
+
+Oficinas mecânicas:
+  cnaes: ["4520001"]
+  termos: ["oficina mecânica", "auto center"]
+  tipo_google: car_repair
